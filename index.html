@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <title>Portfólio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="src/js/script.js" defer></script>
+
+</head>
+<body>
+ 
+    <header class="header">
+        <a href="#home" class="logo">Ana <span>Patrícia</span></a>
+        
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class=" active">Home</a>
+            <a href="#educacao">Qualificação</a>
+            <a href="about">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section class="home " id="home">
+        <div class="home-content">
+            <h1>Olá! Eu sou a <span>Ana Patrícia,</span></h1>
+            <h3 class="text-animacao">estudante de Desenvolvimento de Sistemas <span></span></h3>
+            <!-- <p>Sinta-se à vontade para explorar meu portfólio e conheça meus projetos!</p> -->
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/ana-patricia-39a34032a/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/AnaPatriciia" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-github"></i>
+                <a href="https://www.instagram.com/anapatriciia7/profilecard/?igsh=MWQ4NzZvdmVyem5nOA=="><i class="fa-brands fa-instagram"></i></a>
+               
+        </div>
+        
+    </div>
+        <div class="home-imag">
+            <img src="src/imagem/AirBrush_20241120133250~2.png" alt="">
+        </div>
+    </section>
+
+    <section class="educacao" id="educacao">
+        <h2 class="heading">Qualificação</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <img src="src/imagem/python_18894.png" alt="Python" class="clickable-image">
+                <div class="timeline-content hidden">
+                    <h3>Python</h3>
+                    <p>Python se aplica em desenvolvimento web, ciências de dados, automação, criação de software, jogos, administração de sistemas e IoT.</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <img src="src/imagem/file_type_css_icon_130661.png" alt="CSS" class="clickable-image">
+                <div class="timeline-content hidden">
+                    <h3>CSS</h3>
+                    <p>CSS se aplica em: estilização de sites, design responsivo, animações, personalização de layouts, temas para apps e visualização de componentes web.</p>
+                </div>
+            </div>
+    
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <img src="src/imagem/file_type_html_icon_130541.png" alt="HTML" class="clickable-image">
+                <div class="timeline-content hidden">
+                    <h3>HTML</h3>
+                    <p>HTML se aplica em estruturação de páginas web, criação de conteúdo, integração de mídia, links, formulários e base para tecnologias web como CSS e JavaScript.</p>
+                </div>
+            </div>
+    
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <img src="src/imagem/mysqlworkbench_93532.png" alt="MySQL" class="clickable-image">
+                <div class="timeline-content hidden">
+                    <h3>MySQL</h3>
+                    <p>MySQL Workbench se aplica em: modelagem de bancos de dados, criação e gestão de tabelas, execução de consultas SQL, administração de servidores e visualização de dados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projetos" id="projetos">
+        <div class="projetos-box">
+            <h2 class="heading">Projetos</h2>
+            <div class="wrapper">
+                <div class="projetos-item" onclick="toggleContent(this)">
+                    <img src="src/imagem/screencapture-127-0-0-1-5500-pages-cadastro-html-2024-11-21-02_24_37.png" alt="Landing Page">
+                    <div class="content">
+                        <h3>Projeto Carro</h3>
+                        <p>A criação do formulário HTML e CSS oferece experiência na estruturação de elementos, aplicação de estilos e otimização da usabilidade.</p>
+                    </div>
+                </div>
+                <div class="projetos-item" onclick="toggleContent(this)">
+                    <img src="src/imagem/screencapture-file-C-Users-AnaOliveira-Downloads-LadingPage-LadingPage-index-html-2024-11-19-09_03_49.png" alt="Landing Page">
+                    <div class="content">
+                        <h3>Landing Page</h3>
+                        <p>Este é um exemplo de um projeto de landing page que desenvolvi. A experiência foi muito interessante e desafiadora.</p>
+                    </div>
+                </div>
+                <div class="projetos-item" onclick="toggleContent(this)">
+                    <img src="src/imagem/Captura de tela 2024-11-20024314.png" alt="Projeto Integrador">
+                    <div class="content">
+                        <h3>Projeto Integrador</h3>
+                        <p>A experiência proporcionou crescimento em trabalho em equipe, organização e gestão de prazos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="about-me" id="about">
+        <div class="about-box">
+            <h2 class="heading">Sobre Mim</h2>
+            <div class="wrapper">
+                
+                <div class="about-content">
+                    <h3>Desenvolvedora Web</h3>
+                    <p>
+                        Olá! Sou Ana Patrícia, desenvolvedora web em início de carreira. 
+                        Possuo experiência com linguagens como Python, HTML, CSS e JavaScript, e tenho interesse em  design de interfaces intuitivas.
+                    </p>
+                    <p>
+                        Atualmente, estou cursando Técnico em Análise de Sistemas e desenvolvendo projetos para fortalecer minhas habilidades, com foco em criar experiências digitais únicas.
+                    </p>
+                    <div class="skills">
+                        <h4>Minhas Habilidades:</h4>
+                        <ul>
+                            <li><i class="fas fa-code"></i> Desenvolvimento Web</li>
+                            <li><i class="fas fa-database"></i> Modelagem de Bancos de Dados</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer" id="contato">
+        <div class="social">
+                <a href="https://www.linkedin.com/in/ana-patricia-39a34032a/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/AnaPatriciia"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/anapatriciia7/profilecard/?igsh=MWQ4NzZvdmVyem5nOA=="><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="">Home</a>
+            </li>
+           
+            <li>
+                <a href="">anapatriciia7@gmail.com</a>
+            </li>
+            
+            <span class="copyright">
+            &copy 2024 Ana Patrícia
+        </span>
+        </ul>
+    </footer>
+    
+    
+    
+</body>
+</html>
